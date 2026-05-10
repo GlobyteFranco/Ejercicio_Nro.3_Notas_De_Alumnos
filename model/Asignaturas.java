@@ -1,0 +1,5 @@
+package model;
+
+public enum Asignaturas {
+    MATEMATICA, LENGUAJE, HISTORIA, GEOGRAFIA, CIENCIAS, EDUCACION_FISICA, MUSICA, ARTES
+}
