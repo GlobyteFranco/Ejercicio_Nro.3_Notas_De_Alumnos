@@ -1,14 +1,11 @@
 package model;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Alumno {
     private String nombre;
     private String apellido;
     private int edad;
     private int legajo;
-    private Array[] notas;
+    private Nota[] notas;
 
     public String getNombre() {
         return nombre;
@@ -26,11 +23,11 @@ public class Alumno {
         return legajo;
     }
 
-    public Array[] getNotas() {
+    public Nota[] getNotas() {
         return notas;
     }
 
-    public Alumno(String nombre, String apellido, int edad, int legajo, Array[] notas) {
+    public Alumno(String nombre, String apellido, int edad, int legajo, Nota[] notas) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -40,8 +37,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", legajo=" + legajo
-                + ", notas=" + Arrays.toString(notas) + "]";
+        return "Nombre=" + nombre + ", Apellido=" + apellido + ", Edad=" + edad + ", Legajo=" + legajo;
     }
 
     @Override

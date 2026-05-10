@@ -1,6 +1,6 @@
 package model;
 
-class Nota {
+public class Nota {
     private float valor;
     private Asignaturas asignatura;
 
