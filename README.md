@@ -1,2 +1,3 @@
+# Ejercicio Nro. 3 - Practica Java
 3. Realice un software que permita mantener las notas de los alumnos del curso y conocer
 su promedio. Note que cada alumno va a tener 4 notas.
